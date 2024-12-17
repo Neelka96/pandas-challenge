@@ -1,0 +1,16 @@
+DataFrames:
+--------------------------
+
+org_schoolDF
+org_studentDF
+complete_DF
+
+districtSnap_DF
+per_school_summary = school_perSpending_DF = school_perSize_DF
+
+math_scores_by_grade
+reading_scores_by_grade
+
+per_spending_summary
+per_size_summary
+per_type_summary
