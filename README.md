@@ -60,7 +60,9 @@ account.
 ```
 > [!NOTE]
 > No citations are needed for this project save for the code,
+>
 > data, and assigned conditions given by edX (2U) given for
+>
 > use of learning in this bootcamp.
 
 ## Variables/Breakdowns
