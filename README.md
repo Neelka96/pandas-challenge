@@ -1,7 +1,8 @@
 # Pandas Challenge - PyCitySchools
 `Module 4`  
 `EdX(2U) & UT Data Analytics and Visualization Bootcamp`  
-`Cohort UTA-VIRT-DATA-PT-11-2024-U-LOLC`   
+`Cohort UTA-VIRT-DATA-PT-11-2024-U-LOLC`
+`By Neel Kumar Agarwal`
 
 ## Table of Contents
 1. [Introduction](#introduction)
