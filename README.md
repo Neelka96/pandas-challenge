@@ -153,16 +153,8 @@ pandas-challenge/
 New directory paths indicate proper running and exporting of DataFrames.
 
 ---
-## Final Analysis:  
-```
-Using Pandas and Jupyter Notebook, create a report that includes the following data.
-Your report must include a written description of at least two observable trends based on the data.
-Summarizes the analysis (5 points)
-Draws two correct conclusions or comparisons from the calculations (10 points)
-```
-
-### Observable Trends  
-#### Type & Size of School:  
+## Final Analysis:    
+### Type & Size of School:  
 - **<ins>Intro:</ins>**  
     It's immediately apparent from the `Highest-Performing Schools (% Overall Passing)`  
     and `Lowest-Performing Schools (% Overall Passing)` or even better the  
@@ -215,7 +207,7 @@ Draws two correct conclusions or comparisons from the calculations (10 points)
     smaller and larger size respectively.  
 
 
-#### Reading & Math Scores:  
+### Reading & Math Scores:  
 - **<ins>Intro:</ins>**  
     While there isn't an obvious correlation between them, the snapshots of  
     `Reading Scores by Grade` and `Math Scores by Grade` do shed light on how difficult  
