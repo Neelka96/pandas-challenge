@@ -85,7 +85,7 @@ which both tests are passed are also found taken into account.
 ### Prerequisites  
 - Python 3.x  
 - Standard libraries: `pandas` and `pathlib` (included with Python)  
-- Non-standard libarary: `dataframe_image`  
+- Non-standard library: `dataframe_image`  
 - IDE that supports Jupyter Notebooks with Python  
 
 ### Instructions  
@@ -110,7 +110,7 @@ which both tests are passed are also found taken into account.
 ### Limitations  
 - [ ] Results are qualitative not quantitative  
 - [ ] Exported images lack complete titling for easy comprehension in any space  
-- [ ] Timeframe for DataFrame is a static moment instead of a dynamic range  
+- [ ] Time frame for DataFrame is a static moment instead of a dynamic range  
 
 
 ## Files and Directory Structure  
@@ -161,7 +161,7 @@ New directory paths indicate proper running and exporting of DataFrames.
     `Scores by School Type` that there is a major difference between charter  
     and district type schools based off of their `% Overall Passing`.  
 
-- **<ins>Observable Quanitity:</ins>**  
+- **<ins>Observable Quantity:</ins>**  
     In all scenarios, charter type schools had better testing  
     scores than district type schools by a drastic margin. On average the  
     percent difference of students passing both reading and math exams from  
@@ -173,7 +173,7 @@ New directory paths indicate proper running and exporting of DataFrames.
     binned and categorized. This is because the budgets for each school is  
     proportional to the size of the school and the way their resources are allocated.  
     Generally, charter schools may spend less per student while districts spend more  
-    per student, but the budget is not strictly indicitive of how well students did.  
+    per student, but the budget is not strictly indicative of how well students did.  
     It is actually more representative of the schools themselves and their need for  
     more resources as a larger school that serves a wider demographic.  
 
@@ -236,7 +236,7 @@ New directory paths indicate proper running and exporting of DataFrames.
         Diff = (8.06266268077573)
         Std Dev = 3.4041960121066586
     ```
-    These values provide truth to the prior and following statments in multiple ways.  
+    These values provide truth to the prior and following statements in multiple ways.  
     Primarily, the standard deviation of the math scores by grade is more than twice that  
     of the reading scores by grade, which indicates that the spread of the math scores is  
     more than twice that of the reading score by grade. Lastly, the difference between  
@@ -262,15 +262,15 @@ New directory paths indicate proper running and exporting of DataFrames.
     we can also see that there is a high consistency of scores throughout each school for each  
     subject, independent of the grades, `9th, 10th, 11th, 12th`. A lack of change is not  
     inherently a negative feature, but from this perspective the scores that are nearing the  
-    pass/fail limit must first be improved before overall maintanence can be considered.  
+    pass/fail limit must first be improved before overall maintenance can be considered.  
     Consistency, however, within this limited time frame of only one entry for one student,  
-    is also an indicator of stablization. Should more data be brought into the fold, a measurement  
+    is also an indicator of stabilization. Should more data be brought into the fold, a measurement  
     of how much a student is improving or declining could be added and used to uncover more information.  
 
 - **<ins>Implied Story:</ins>**  
     The story that becomes clearer is of how schools are unable to help the students that are  
     struggling more in math even as they progress throughout the  school. Schools that have the  
-    lowest math scores are incredibly indicitive of schools with the lowest `% Overall Passing`.  
+    lowest math scores are incredibly indicative of schools with the lowest `% Overall Passing`.  
     In general, math tends to have a less comprehensive understanding by all demographics of people  
     and for all extensive purposes can be considered harder at times, and is most likely why schools  
     that struggle with resource allocation for larger class sizes would struggle even more with teaching  
