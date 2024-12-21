@@ -153,6 +153,7 @@ pandas-challenge/
 New directory paths indicate proper running and exporting of DataFrames.
 
 ---
+
 ## Final Analysis:    
 ### Type & Size of School:  
 - **<ins>Intro:</ins>**  
