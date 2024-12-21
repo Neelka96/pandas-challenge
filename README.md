@@ -71,28 +71,28 @@ which both tests are passed are also found taken into account.
 ```
 ### Summary Breakdowns:  
 ```
-|- District Summary
-|- School Summary
-|- Highest-Performing School (by % Overall Passing)
-|- Bottom-Performing Schools (by % Overall Passing)
-|- Math Scores by Grade
-|- Reading Scores by Grade
-|- Scores by School Spending
-|- Scores by School Size
-|- Scores by School Type
+|-*-| District Summary
+|-*-| School Summary
+|-*-| Highest-Performing School (by % Overall Passing)
+|-*-| Bottom-Performing Schools (by % Overall Passing)
+|-*-| Math Scores by Grade
+|-*-| Reading Scores by Grade
+|-*-| Scores by School Spending
+|-*-| Scores by School Size
+|-*-| Scores by School Type
 ```
 
 ## Setup and Usage  
 ### Prerequisites  
 - Python 3.x  
-- Standard libraries: `pandas` and `pathlib` (included with Python)
-- Non-standard libarary: `dataframe_image`
+- Standard libraries: `pandas` and `pathlib` (included with Python)  
+- Non-standard libarary: `dataframe_image`  
 - IDE that supports Jupyter Notebooks with Python  
 
 ### Instructions  
 1. Clone this repository.  
 2. Ensure IDE is up to date and running.  
-3. Please run the following code in your IDE if the dependencies aren't found:
+3. Please run the following code in your IDE if the dependencies aren't found:  
     ```
     pip install pandas
     pip install pathlib
@@ -100,8 +100,8 @@ which both tests are passed are also found taken into account.
     ```
 4. Ensure the input CSV files are in the `Resources` folder.  
 5. Open `main.ipynb` in your IDE and run all cells.  
-6. Results will print throughout the Jupyter Interactive Notebook 
-7. Results are then exported in .png format in new `snapshots` directory
+6. Results will print throughout the Jupyter Interactive Notebook  
+7. Results are then exported in .png format in new `snapshots` directory  
 > [!TIP]  
 > Collapsing of various regions or use of `OUTLINE` in VSCode can  
 > speed up exploration of the Notebook.  
@@ -110,10 +110,8 @@ which both tests are passed are also found taken into account.
 
 ### Limitations  
 - [ ] Results are qualitative not quantitative  
-- [x] ~~Qualitative information is not the most accessable in such a large notebook~~  
-    - Exportation of images created in new directory 
-- [ ] Exported images lack complete titling for easy comprehension in any space
-- [ ] Timeframe for DataFrame is a static moment instead of a dynamic range
+- [ ] Exported images lack complete titling for easy comprehension in any space  
+- [ ] Timeframe for DataFrame is a static moment instead of a dynamic range  
 
 
 ## Files and Directory Structure  
@@ -163,17 +161,22 @@ Summarizes the analysis (5 points)
 Draws two correct conclusions or comparisons from the calculations (10 points)
 ```
 
-### Observable Trends
-#### Type & Size of School:
-- **Intro:** It's immediately apparent from the `Highest-Performing Schools (% Overall Passing)`  
+### Observable Trends  
+#### Type & Size of School:  
+- **<ins>Intro:</ins>**  
+    It's immediately apparent from the `Highest-Performing Schools (% Overall Passing)`  
     and `Lowest-Performing Schools (% Overall Passing)` or even better the  
     `Scores by School Type` that there is a major difference between charter  
     and district type schools based off of their `% Overall Passing`.  
-- **Observable Quanitity:** In all scenarios, charter type schools had better testing  
+
+- **<ins>Observable Quanitity:</ins>**  
+    In all scenarios, charter type schools had better testing  
     scores than district type schools by a drastic margin. On average the  
     percent difference of students passing both reading and math exams from  
     charter and district type schools was 36.76%.  
-- **Important Relationships:** Charter and district school observations are also  
+
+- **<ins>Important Relationships:</ins>**  
+    Charter and district school observations are also  
     recognizable from their budgets or sizing without the school type when  
     binned and categorized. This is because the budgets for each school is  
     proportional to the size of the school and the way their resources are allocated.  
@@ -181,7 +184,9 @@ Draws two correct conclusions or comparisons from the calculations (10 points)
     per student, but the budget is not strictly indicitive of how well students did.  
     It is actually more representative of the schools themselves and their need for  
     more resources as a larger school that serves a wider demographic.  
-- **Main Factors:** All charter schools, except one, are classified as `Small (<1000)`  
+
+- **<ins>Main Factors:</ins>**  
+    All charter schools, except one, are classified as `Small (<1000)`  
     or `Medium (1000-2000)` sized schools, while every single district school is  
     `Large (2000-5000)`. Ignoring the school type completely, the data in  
     `Scores by School Size` shows that the rates of success of large size schools  
@@ -191,7 +196,9 @@ Draws two correct conclusions or comparisons from the calculations (10 points)
     itself can suggest that, regardless of the budget or type of the school,  
     schools that have more students have difficulty maintaining high test scores  
     with all students.  
-- **Implied Story:** Taking the type of school into account again, the aforementioned  
+
+- **<ins>Implied Story:</ins>**  
+    Taking the type of school into account again, the aforementioned  
     difficulty in raising/maintaining test scores could be for a plethora of reasons  
     some of which are outside the control of the school. For example, which  
     students are assigned to which school zones, whether some of their budget per  
@@ -200,31 +207,37 @@ Draws two correct conclusions or comparisons from the calculations (10 points)
     The way the size of a school changes the performance of each individual student isn't  
     always important but it seems that once it reaches a certain number the success  
     rate begins to drop, especially in mathematics.  
-- **Summary Story:** The larger the school is the higher the chance is of a student not  
+
+- **<ins>Summary Story:</ins>**  
+    The larger the school is the higher the chance is of a student not  
     receiving adequate resources to help achieve passing test scores. Additionally, within  
     this School District, charter and district type schools are almost exclusively of a  
     smaller and larger size respectively.  
 
-#### Reading & Math Scores:
-- **Intro:** While there isn't an obvious correlation between them, the snapshots of  
+
+#### Reading & Math Scores:  
+- **<ins>Intro:</ins>**  
+    While there isn't an obvious correlation between them, the snapshots of  
     `Reading Scores by Grade` and `Math Scores by Grade` do shed light on how difficult  
     students find the tests depending on their grade. These snapshots are helpful but a  
     little limited because it only shows how difficult random samples of students did in  
     each grade, and not how difficult a student found the tests in each of the grades.  
-- **Observable Quantity:** While reading and math scores on average don't deviate too  
+
+- **<ins>Observable Quantity:</ins>**  
+    While reading and math scores on average don't deviate too  
     strongly from each other, math scores do vary the most out of the two, especially in  
     relation to other variables in question. In terms of impact, math scores make the  
     largest ones for the `% Overall Passing` in every consecutive DataFrame. The quantitative  
     data shows:
     ```
-    Read Scores by Grade Numerical Summary (Averages for all columns):
+    Read Scores by Grade Numerical Summary (Averages for 9th-12th):
         Mean = 82.53326469678984
         Max = 84.36234496688002
         Min = 80.49302138528849
         Diff = (3.86932358159153)
         Std Dev = 1.5707706608878393
 
-    Math Scores by Grade Numerical Summary (Averages for all columns):
+    Math Scores by Grade Numerical Summary (Averages for 9th-12th):
         Mean = 80.4325622269647
         Max = 84.28450314388449
         Min = 76.22184046310876
@@ -239,7 +252,8 @@ Draws two correct conclusions or comparisons from the calculations (10 points)
     the spread are even further apart with the minimum and maximum of the math scores being  
     lower than that of their respective reading scores.  
 
-- **Important Relationships:** When the metric of pass/fail at a score of `70.00` is  
+- **<ins>Important Relationships:</ins>**  
+    When the metric of pass/fail at a score of `70.00` is  
     brought into the picture, the difference between a score of `75` and `80` is weighted  
     heavier than that of `85` and `95`. Math scores in particular reflect this property  
     whether it's in regards to math scores at different schools or reading scores. What's  
@@ -247,13 +261,31 @@ Draws two correct conclusions or comparisons from the calculations (10 points)
     their scores from one grade to the next. Students in grades 9th through 12th consistently  
     score the same throughout their school, meaning the scores are completely independent of  
     grades, but even more depedent on the schools.  
-- **Main Factors:** It's stated within [Type & Size of School](#type--size-of-school) that the type and size were  
+
+- **<ins>Main Factors:</ins>**  
+    It's stated within [Type & Size of School](#type--size-of-school) that the type and size were  
     deterministic of each other (intertwined as variables), and size is what essentially  
     impacted the `% Overall Passing` values the most as it also impacts all the other factors  
     that are contributing to student test score. However, with this new lensing of the data,  
     we can also see that there is a high consistency of scores throughout each school for each  
     subject, independent of the grades, `9th, 10th, 11th, 12th`. A lack of change is not  
     inherently a negative feature, but from this perspective the scores that are nearing the  
-    pass/fail limit must first be improved before overall maintanence can be considered. Consistency, however, within this limited time frame of only one entry for one student, is also an indicator of stablization. Should more data be brought into the fold, a measurement of how much a student is improving or declining could be added and used to uncover more information. first either students that were not struggling before and are now, or students that were struggling before and still are now, 
-- **Implied Story:**
-- **Summary Story:**
+    pass/fail limit must first be improved before overall maintanence can be considered.  
+    Consistency, however, within this limited time frame of only one entry for one student,  
+    is also an indicator of stablization. Should more data be brought into the fold, a measurement  
+    of how much a student is improving or declining could be added and used to uncover more information.  
+
+- **<ins>Implied Story:</ins>**  
+    The story that becomes clearer is of how schools are unable to help the students that are  
+    struggling more in math even as they progress throughout the  school. Schools that have the  
+    lowest math scores are incredibly indicitive of schools with the lowest `% Overall Passing`.  
+    In general, math tends to have a less comprehensive understanding by all demographics of people  
+    and for all extensive purposes can be considered harder at times, and is most likely why schools  
+    that struggle with resource allocation for larger class sizes would struggle even more with teaching  
+    a difficult subject to a wider demographic of people.  
+
+- **<ins>Summary Story:</ins>**  
+    Math is already a difficult subject, but the data suggests that schools struggle with teaching students  
+    regardless of resource allocation, however those with less resources per student will struggle even more  
+    and produce worse test results overall. It's very likely that a worse a student is doing in math, the less  
+    time they'll be able to produce quality results for reading as well.
