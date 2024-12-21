@@ -17,10 +17,9 @@
 5. [Files and Directory Structure](#files-and-directory-structure)  
 6. [Expected Results](#expected-results)  
 7. [Final Analysis](#final-analysis)  
-    - [Observable Trends](#observable-trends)
-        - [Type & Size of School](#type--size-of-school)
-        - [Reading & Math Scores](#reading--math-scores)
-    - [Conclusion] 
+    - [Type & Size of School](#type--size-of-school)
+    - [Reading & Math Scores](#reading--math-scores)
+
 
 ## Introduction  
 You are the new Chief Data Scientist for your city's school district. In this  
