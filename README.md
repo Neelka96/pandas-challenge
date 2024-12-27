@@ -114,7 +114,7 @@ which both tests are passed are also found taken into account.
 
 
 ## Files and Directory Structure  
-```
+```  
 pandas-challenge/
 |
 |— PyCitySchools/
@@ -122,7 +122,7 @@ pandas-challenge/
 |   |   — schools_complete.csv
 |   |   - students_complete.csv
 |   |— main.ipynb
-```
+```  
 This structure ensures all inputs are organized within their respective folders.  
 Outputs will be created without additional directory structuring  
 
